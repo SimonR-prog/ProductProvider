@@ -1,6 +1,8 @@
-﻿namespace Buisness.Interface;
+﻿using Buisness.Models;
+
+namespace Buisness.Interface;
 
 public interface IProductService
 {
-    void CreateProduct(ProductRequest request);
+    ProductServiceResult CreateProduct(ProductRequest request);
 }
